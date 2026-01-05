@@ -3,7 +3,7 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Document</title>
+      <title>Your Name - Full Stack Developer</title>
       <link rel="stylesheet" href="css/main.css" />
       <link href="https://api.fontshare.com/v2/css?f[]=oswald@500&display=swap" rel="stylesheet" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,16 +12,208 @@
          href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
          rel="stylesheet" />
    </head>
-   <body class="bg-image">
+   <body>
+      <!-- <header>
+         <nav class="container">
+            <div class="logo">YourName</div>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+            <ul class="nav-links" id="navLinks">
+               <li><a href="#home">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#skills">Skills</a></li>
+               <li><a href="#projects">Projects</a></li>
+               <li><a href="#contact">Contact</a></li>
+            </ul>
+         </nav>
+      </header> -->
+
       <header class="header">
-         <h1 class="title-name">Basim Shahzad</h1>
+         <h1 class="title">Basim Shahzad</h1>
          <nav class="navbar">
-            <div class="nav-element">Home</div>
-            <div class="nav-element">Projects</div>
-            <div class="nav-element">About</div>
-            <div class="nav-element">Skills</div>
-            <div class="nav-element">Contact</div>
+            <a class="nav-element" href="#">Home</a>
+            <a class="nav-element" href="#projects">Projects</a>
+            <a class="nav-element" href="#about">About</a>
+            <a class="nav-element" href="#skills">Skills</a>
+            <a class="nav-element" href="#contact">Contact</a>
+            <button class="theme-switch nav-element">dark</button>
          </nav>
       </header>
+
+      <section class="hero">
+         <div class="role">Full-Stack Web Developer</div>
+         <p class="intro">
+            Committed to creating fast, well-structured applications that work seamlessly. I build modern web
+            applications that solve real-world problems with efficient, and thoughtful design.
+            <!-- </div> -->
+         </p>
+      </section>
+
+      <section id="projects">
+         <div class="container">
+            <h2 class="title projects-title">Projects</h2>
+            <div class="projects-grid">
+               <div class="project-card">
+                  <div class="project-content">
+                     <h3>Jotes</h3>
+                     <img src="assets/images/Jotes.png" class="project-img" alt="" />
+                     <p>
+                        A collaborative notes application designed for teams to create, share, and organize notes in
+                        real-time. Features user authentication, note categorization, and a clean interface for seamless
+                        collaboration.
+                     </p>
+                     <div class="tech-stack">
+                        <span class="tech-tag">React JS</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">TlDraw</span>
+                     </div>
+                     <button href="https://github.com/yourusername/jotes" class="project-button">
+                        View on GitHub ↗️
+                     </button>
+                  </div>
+               </div>
+               <div class="project-card">
+                  <div class="project-content">
+                     <h3>FreelancerFlow</h3>
+                     <img src="assets/images/FreelancerFlow.png" class="project-img" alt="" />
+                     <p>
+                        A comprehensive freelancer management system for tracking work hours, managing projects,
+                        generating invoices, and handling payments. Includes PDF invoice generation using WeasyPrint and
+                        sending it via emails and detailed time entry tracking.
+                     </p>
+                     <div class="tech-stack">
+                        <span class="tech-tag">React TS</span>
+                        <span class="tech-tag">Django</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Django Rest Framework</span>
+                     </div>
+                     <button
+                        href="https://github.com/yourusername/freelancerflow"
+                        class="project-button">
+                        View on GitHub ↗️
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section id="about" class="about">
+         <div class="container">
+            <h2 class="title section-title">About Me</h2>
+            <div class="about-content">
+               <p>
+                  I am a self-taught full-stack web developer with a passion for building practical and efficient web
+                  applications. My journey in development started with a curiosity about how websites work, which
+                  evolved into a deep dive into both frontend and backend technologies.
+               </p>
+               <p>
+                  I focus on creating full-stack applications with strong backend logic, REST API design, and intuitive
+                  user interfaces. Currently, I'm expanding my skills in modern frameworks like Next.js and Django REST
+                  Framework while working on real-world projects that solve actual problems.
+               </p>
+               <p>
+                  My goal is to continue growing as a developer, contribute to meaningful projects, and eventually work
+                  with teams that value clean code, innovation, and continuous learning.
+               </p>
+            </div>
+         </div>
+      </section>
+
+      <section id="skills">
+         <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+               <div class="skill-category">
+                  <h3>Frontend</h3>
+                  <ul>
+                     <li>HTML & CSS</li>
+                     <li>JavaScript</li>
+                     <li>React</li>
+                     <li>Next.js (Learning)</li>
+                     <li>TypeScript</li>
+                     <li>TailwindCSS</li>
+                  </ul>
+               </div>
+               <div class="skill-category">
+                  <h3>Backend</h3>
+                  <ul>
+                     <li>Python</li>
+                     <li>Django</li>
+                     <li>Django REST Framework (Learning)</li>
+                     <li>Flask</li>
+                     <li>REST API Design</li>
+                  </ul>
+               </div>
+               <div class="skill-category">
+                  <h3>Database & Tools</h3>
+                  <ul>
+                     <li>PostgreSQL</li>
+                     <li>MySQL</li>
+                     <li>MongoDB</li>
+                     <li>Git & GitHub</li>
+                     <li>TanStack</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section id="contact">
+         <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-content">
+               <p>
+                  I'm always open to discussing new projects, opportunities, or collaborations. Feel free to reach out
+                  through any of the channels below.
+               </p>
+               <div class="contact-links">
+                  <a href="mailto:your.email@example.com" class="contact-item">
+                     <span class="contact-icon">✉</span>
+                     <span>your.email@example.com</span>
+                  </a>
+                  <a href="https://github.com/yourusername" class="contact-item" target="_blank">
+                     <span class="contact-icon">⚡</span>
+                     <span>github.com/yourusername</span>
+                  </a>
+                  <a href="https://linkedin.com/in/yourprofile" class="contact-item" target="_blank">
+                     <span class="contact-icon">🔗</span>
+                     <span>linkedin.com/in/yourprofile</span>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <footer>
+         <div class="container">
+            <p>&copy; 2025 Your Name. All rights reserved.</p>
+         </div>
+      </footer>
+
+      <script>
+         const menuToggle = document.getElementById("menuToggle");
+         const navLinks = document.getElementById("navLinks");
+
+         menuToggle.addEventListener("click", function () {
+            navLinks.classList.toggle("active");
+         });
+
+         document.querySelectorAll(".nav-links a").forEach((link) => {
+            link.addEventListener("click", function () {
+               navLinks.classList.remove("active");
+            });
+         });
+
+         document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+            anchor.addEventListener("click", function (e) {
+               e.preventDefault();
+               const target = document.querySelector(this.getAttribute("href"));
+               if (target) {
+                  target.scrollIntoView({ behavior: "smooth", block: "start" });
+               }
+            });
+         });
+      </script>
    </body>
 </html>
