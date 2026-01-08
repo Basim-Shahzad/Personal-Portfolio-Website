@@ -1,0 +1,276 @@
+@media (max-width: 768px) {
+   header {
+      padding: 1px 15px;
+      height: 12vh;
+      flex-direction: column;
+      justify-content: center;
+      gap: 10px;
+   }
+
+   .title {
+      font-size: 32px;
+   }
+
+   .navbar {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 5px;
+      gap: 5px;
+   }
+
+   .nav-element {
+      padding: 5px 12px;
+      font-size: 14px;
+   }
+
+   .hero {
+      grid-template-columns: 1fr;
+      height: auto;
+      padding: 30px 20px;
+      gap: 20px;
+   }
+
+   .hero .role {
+      font-size: 22px;
+      text-align: center;
+   }
+
+   .hero .intro {
+      font-size: 18px;
+      text-align: center;
+   }
+
+   .about-title,
+   .skills-title,
+   .projects-title,
+   .contact-title {
+      padding: 0 20px;
+      font-size: 32px;
+   }
+
+   .about-content {
+      padding: 0 20px;
+      font-size: 16px;
+   }
+
+   .skills-container {
+      padding: 25px 20px;
+   }
+
+   .tech-img {
+      height: 80px;
+      width: 80px;
+   }
+
+   .projects-grid {
+      flex-direction: column;
+      padding: 0 20px;
+      gap: 30px;
+   }
+
+   .project-card {
+      width: 100%;
+   }
+
+   .project-img {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1;
+   }
+
+   .project-card h3 {
+      font-size: 22px;
+      margin-top: 15px;
+   }
+
+   .project-card p {
+      font-size: 15px;
+   }
+
+   .tech-stack {
+      gap: 8px;
+   }
+
+   .tech-tag {
+      font-size: 13px;
+      padding: 4px 10px;
+   }
+
+   .project-button {
+      padding: 10px 30px;
+      font-size: 14px;
+      width: 100%;
+   }
+
+   .contact-content p {
+      font-size: 18px;
+      text-align: center;
+      padding: 0 20px;
+   }
+
+   .email {
+      font-size: 16px;
+      padding: 12px 20px;
+      margin-top: 20px;
+      width: 90%;
+      text-align: center;
+      word-break: break-all;
+   }
+
+   .social-links {
+      flex-direction: column;
+      width: 100%;
+      padding: 0 20px;
+      gap: 15px;
+      margin-top: 20px;
+   }
+
+   .social-links a {
+      width: 100%;
+   }
+
+   .social-link {
+      width: 100%;
+      height: 50px;
+      font-size: 16px;
+   }
+
+   footer {
+      padding: 20px 15px;
+      font-size: 14px;
+   }
+}
+
+@media (max-width: 480px) {
+   header {
+      height: auto;
+      padding: 10px 10px;
+   }
+
+   .title {
+      font-size: 28px;
+   }
+
+   .navbar {
+      gap: 3px;
+   }
+
+   .nav-element {
+      padding: 4px 10px;
+      font-size: 12px;
+   }
+
+   .hero {
+      padding: 25px 15px;
+   }
+
+   .hero .role {
+      font-size: 20px;
+   }
+
+   .hero .intro {
+      font-size: 16px;
+   }
+
+   .about-title,
+   .skills-title,
+   .projects-title,
+   .contact-title {
+      padding: 0 15px;
+      font-size: 28px;
+   }
+
+   .about-content {
+      padding: 0 15px;
+      font-size: 15px;
+   }
+
+   .about-content p {
+      margin-bottom: 15px;
+   }
+
+   .skills-container {
+      padding: 20px 15px;
+   }
+
+   .tech-img {
+      height: 70px;
+      width: 70px;
+   }
+
+   .projects-grid {
+      padding: 0 15px;
+      gap: 25px;
+   }
+
+   .project-card h3 {
+      font-size: 20px;
+   }
+
+   .project-card p {
+      font-size: 14px;
+   }
+
+   .tech-tag {
+      font-size: 12px;
+   }
+
+   .project-button {
+      font-size: 13px;
+      padding: 10px 25px;
+   }
+
+   .contact-content p {
+      font-size: 16px;
+      padding: 0 15px;
+   }
+
+   .email {
+      font-size: 14px;
+      padding: 10px 15px;
+   }
+
+   .social-links {
+      padding: 0 15px;
+   }
+
+   footer {
+      font-size: 13px;
+   }
+}
+
+@media (max-width: 360px) {
+   .title {
+      font-size: 24px;
+   }
+
+   .nav-element {
+      padding: 3px 8px;
+      font-size: 11px;
+   }
+
+   .hero .role {
+      font-size: 18px;
+   }
+
+   .hero .intro {
+      font-size: 15px;
+   }
+
+   .about-title,
+   .skills-title,
+   .projects-title,
+   .contact-title {
+      font-size: 24px;
+   }
+
+   .tech-img {
+      height: 60px;
+      width: 60px;
+   }
+
+   .email {
+      font-size: 13px;
+   }
+}
