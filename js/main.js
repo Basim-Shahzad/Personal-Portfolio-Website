@@ -7,21 +7,30 @@ container.innerHTML += container.innerHTML += container.innerHTML;
 
 let scrollAmount = 0;
 let speed = 2;
+let isPaused = false;
 
 function scrollImages() {
-   scrollAmount += speed;
+   if (!isPaused) {
+      scrollAmount += speed;
 
-   if (scrollAmount >= container.scrollWidth / 2) {
-      scrollAmount = 0;
+      if (scrollAmount >= container.scrollWidth / 2) {
+         scrollAmount = 0;
+      }
+
+      container.scrollLeft = scrollAmount;
    }
-
-   container.scrollLeft = scrollAmount;
    requestAnimationFrame(scrollImages);
 }
 
 scrollImages();
 
-// social links
+container.addEventListener("mouseenter", () => {
+   isPaused = true;
+});
+
+container.addEventListener("mouseleave", () => {
+   isPaused = false;
+});
 
 socialLinks.forEach((link) => {
    const span = link.querySelector("span");
